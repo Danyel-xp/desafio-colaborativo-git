@@ -21,9 +21,17 @@ while  True:
 
     elif escolha == 1:
         #função soma
+        num1 = float(input("Digite o primeiro número: "))
+        num2 = float(input("Digite o segundo número: "))
+        soma = num1 + num2
+        print(f"A soma de {num1} + {num2} é: {soma}\n")
 
     elif escolha == 2:
         #função de subtração
+        num1 = float(input("Digite o primeiro número: "))
+        num2 = float(input("Digite o segundo número: "))
+        sub = num1 - num2
+        print(f"A subtração de {num1} - {num2} é: {sub}\n")
 
     elif escolha == 3:
         #função de multiplicação
