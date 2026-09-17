@@ -31,6 +31,10 @@ while  True:
 
     elif escolha == 3:
         #função de multiplicação
+        num1 = float(input("Digite o primeiro valor: "))
+        num2 = float(input("Digite o segundo valor: "))
+        mult = num1 * num2
+        print(f"Resultade da multiplicação entre {num1} e {num2} é igual a: ", mult)
 
     elif escolha == 4:
         #função de divisão
