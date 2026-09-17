@@ -1,3 +1,12 @@
+def soma():
+    num1 = float(input("Valor A: "))
+    num2 = float(input("Valor B: "))
+
+    soma = num1 + num2
+
+    print(f"===> Resultado: {soma}\n")
+
+
 print("|==================================|\n");
 print("|            CALCULADORA           |\n");
 print("|==================================|\n");
@@ -17,27 +26,19 @@ while  True:
     if escolha == 5:
         print("Encerrando programa..");
         print("Programa encerrado com sucesso!");
-        exit();
+        exit()
 
     elif escolha == 1:
-        #função soma
-        num1 = float(input("Digite o primeiro número: "))
-        num2 = float(input("Digite o segundo número: "))
-        soma = num1 + num2
-        print(f"A soma de {num1} + {num2} é: {soma}\n")
+        soma()
 
     elif escolha == 2:
-        #função de subtração
-        num1 = float(input("Digite o primeiro número: "))
-        num2 = float(input("Digite o segundo número: "))
-        sub = num1 - num2
-        print(f"A subtração de {num1} - {num2} é: {sub}\n")
+        subtracao()
 
     elif escolha == 3:
-        #função de multiplicação
+        multiplicacao()
 
     elif escolha == 4:
-        #função de divisão
+        divisao()
 
     else:
         print("Opção invalida! Tente novamente...");
