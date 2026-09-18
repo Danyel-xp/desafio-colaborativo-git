@@ -22,25 +22,36 @@ def multiplicacao():
 
     print(f"===> Resultado: {multiplicacao}\n")
 
-print("|==================================|\n")
-print("|            CALCULADORA           |\n")
-print("|==================================|\n")
-print("| 1. SOMA                          |\n")
-print("| 2. SUBTRAÇÃO                     |\n")
-print("| 3. MULTIPLICAÇÃO                 |\n")
-print("| 4. DIVISÃO                       |\n")
-print("| 5. SAIR                          |\n")
-print("|==================================|\n")
+def divisao():
+    a = float(input("Valor A: "))
+    b = float(input("Valor B: "))
+    
+    if b < 0 or b == 0 :
+        print("Não e possivel dividir por 0\n")
 
+    else:
+        divisao = a / b
+        print(f"===> Resultado: {divisao}\n")
 
 
 while  True: 
 
+    print("|==================================|\n")
+    print("|            CALCULADORA           |\n")
+    print("|==================================|\n")
+    print("| 1. SOMA                          |\n")
+    print("| 2. SUBTRAÇÃO                     |\n")
+    print("| 3. MULTIPLICAÇÃO                 |\n")
+    print("| 4. DIVISÃO                       |\n")
+    print("| 5. SAIR                          |\n")
+    print("|==================================|\n")
+
+
     escolha = float(input("Esolha uma opção: "))
 
     if escolha == 5:
-        print("Encerrando programa..")
-        print("Programa encerrado com sucesso!")
+        print("Encerrando programa..\n")
+        print("Programa encerrado com sucesso!\n")
         exit()
 
     elif escolha == 1:
@@ -48,7 +59,6 @@ while  True:
 
     elif escolha == 2:
         subtracao()
-        
     elif escolha == 3:
         multiplicacao()
 
@@ -56,4 +66,4 @@ while  True:
         divisao()
 
     else:
-        print("Opção invalida! Tente novamente...")
+        print("Opção invalida! Tente novamente...\n")
