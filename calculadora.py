@@ -6,6 +6,13 @@ def soma():
 
     print(f"===> Resultado: {soma}\n")
 
+def subtracao():
+    num1 = float(input("Valor A: "))
+    num2 = float(input("Valor B: "))
+
+    subtracao = num1 - num2
+
+    print(f"===> Resultado: {subtracao}\n")
 
 print("|==================================|\n");
 print("|            CALCULADORA           |\n");
@@ -35,7 +42,7 @@ while  True:
         subtracao()
 
     elif escolha == 3:
-        multiplicacao()
+        multipicacao()
 
     elif escolha == 4:
         divisao()
