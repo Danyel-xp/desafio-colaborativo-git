@@ -26,7 +26,7 @@
 
 ## Características da aplicação
 
-![alt text](image-3.png)
+![alt text](imagem.png)
 
 É uma calculadora executada diretamente pelo terminal.
 
