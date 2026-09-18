@@ -50,7 +50,7 @@ instale as dependências necessárias:
  ```
  git clone https://github.com/Danyel-xp/desafio-colaborativo-git.git
  ```
-Entre no diretório `desafio-colaborativo-git/` e execute:
+Entre no diretório `desafio-colaborativo-git/` e execute o comando:
 
 ```
 python calculadora.py
@@ -73,5 +73,6 @@ python calculadora.py
 -  **Estevão** 
 
    GitHub: [Estevao-exe](https://github.com/Estevao-exe)
+
 
 
