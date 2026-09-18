@@ -1,8 +1,16 @@
+def subtracao():
+    num1 = float(input("Valor A: "))
+    num2 = float(input("Valor B: "))
+
+    subtracao = num1 - num2
+
+    print(f"===> Resultado: {subtracao}\n")
+
 print("|==================================|\n");
 print("|            CALCULADORA           |\n");
 print("|==================================|\n");
 print("| 1. SOMA                          |\n");
-print("| 1. SUBTRAÇÃO                     |\n");
+print("| 2. SUBTRAÇÃO                     |\n");
 print("| 3. MULTIPLICAÇÃO                 |\n");
 print("| 4. DIVISÃO                       |\n");
 print("| 5. SAIR                          |\n");
@@ -17,23 +25,19 @@ while  True:
     if escolha == 5:
         print("Encerrando programa..");
         print("Programa encerrado com sucesso!");
-        exit();
+        exit()
 
     elif escolha == 1:
-        #função soma
+        soma()
 
     elif escolha == 2:
-        num1 = float(input("Digite o primeiro valor: "))
-        num2 = float(input("Digite o segundo valor: "))
-        subtracao = num1 - num2
-        print(f"Resultade da subtração entre {num1} e {num2} é igual a: ", subtracao)
-        
+        subtracao()
 
     elif escolha == 3:
-        #função de multiplicação
+        multipicacao()
 
     elif escolha == 4:
-        #função de divisão
+        divisao()
 
     else:
         print("Opção invalida! Tente novamente...");
